@@ -1,0 +1,80 @@
+/* 
+.Main
+{
+    background-color: black;
+
+}
+.btn0,.btn2
+{
+    width:320px;
+    height:50px;
+    margin-left:20px;
+}
+.btn0{
+    background-color: red;
+}
+.btn2{
+    background-color: green;
+}
+.btn1
+{
+    width:150px;
+    height:50px;
+    margin-left:20px;
+}
+input
+{
+    height:50px;
+    width:250px;
+
+}
+
+ */
+
+
+ body{
+    background: rgb(219, 247, 40);
+}
+.Main{
+    height:400px;
+    width:400px;
+    border:5px solid black;
+    margin: auto;
+    margin-top: 10%;
+   background: rgb(189, 15, 223);
+}
+.Container{
+    margin-top:8%;
+
+}
+input{
+    height:50px;
+    width:250px;
+    margin-left: 70px;
+    font-size:20px ;
+    font-weight: 10px;
+
+}
+.keypad{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    margin-top: 50px;
+
+}
+#clear{
+    background: red;
+    grid-column:1/3;
+}
+#c
+{
+    background:rgb(133, 132, 132);
+}
+#eq
+{
+    background: green;
+    grid-column: 3/5;
+}
+button{
+    margin:5px;
+    height:35px;
+}
